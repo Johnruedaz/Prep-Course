@@ -242,9 +242,7 @@ function esVocal(letra){
   var letra = prompt('Ingrese vocal: ');
   if (letra.lenght > 1) {
     return "Dato incorrecto";
-    var letra = prompt('Ingrese vocal: ');
-  }
-  if (letra == 'a', 'e', 'i', 'o', 'u') {
+  } else if (letra == 'a', 'e', 'i', 'o', 'u') {
     return "Es vocal";
   }
   return "Dato incorrecto";
