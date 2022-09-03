@@ -90,7 +90,6 @@ function menosQueNoventa(num) {
   }
   return false;
 }
-menosQueNoventa(100)
 
 
 function mayorQueCincuenta(num) {
@@ -155,8 +154,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round(num);
-  return num;
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
